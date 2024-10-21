@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap" rel="stylesheet">
+    <title>aventura pirata</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+           <img src="cenario-passo0.png" alt=""> 
+            <p>Um jovem sonhador desejava ser um pirata</p>
+            <button class="btn-proximo" data-proximo="1">ilha da caveira</button> 
+            <button class="btn-proximo" data-proximo="2">ilha das sombras</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>você começa a aventura navegando para a ilha da caveira em busca do tesouro</p>
+            <button class="btn-proximo" data-proximo="3">rondar pela ilha em busca do tesouro</button> 
+            <button class="btn-proximo" data-proximo="4">desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>na ilha das sombras você enfrenta esqueletos fantasmas</p>
+            <button class="btn-proximo" data-proximo="5">derrotar os monstros nativos</button> 
+            <button class="btn-proximo" data-proximo="6">procurar o tesouro</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
